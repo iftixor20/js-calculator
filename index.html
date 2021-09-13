@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  </link>
+  <script src="https://kit.fontawesome.com/aee988505a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Homework</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="h1 text-center mt-5 mb-5">Kim birinchi bo-rish-ga!</h1>
+    <div class="row w-50 align-items-center m-lg-auto">
+      <div class="col-2 fs-3">
+        <label for="js-distance">Masofa</label>
+      </div>
+      <div class="col-4">
+        <input type="number" name="distance" id="js-distance" class="form-control" placeholder="km">
+      </div>
+      <div class="col-2">
+        <button type="submit" class="btn btn-primary" id="js-calculate">Calculate</button>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-3 text-center border  border-secondary m-1 rounded p-3">
+        <i class="fas mb-3 fa-male"></i>
+        <div class="text">Piyoda</div>
+        <h2 class="h2 mb-4" id="js-footer">N soat</h2>
+        <hr>
+        <p class="text-center">3.6 km/soat</p>
+      </div>
+      <div class="col-3 text-center border border-secondary m-1 rounded p-3">
+        <i class="fas mb-3 fa-bicycle"></i>
+        <div class="text">Velosiped</div>
+        <h2 class="h2 mb-4" id="js-cyclist">N soat</h2>
+        <hr>
+        <p class="text-center">20.1 km/soat</p>
+      </div>
+      <div class="col-3 text-center border border-secondary m-1 rounded p-3">
+        <i class="fas mb-3 fa-car"></i>
+        <div class="text">Mashina</div>
+        <h2 class="h2 mb-4" id="js-driver">N soat</h2>
+        <hr>
+        <p class="text-center">70 km/soat</p>
+      </div>
+      <div class="col-3 text-center border border-secondary m-1 rounded p-3">
+        <i class="fas mb-3 fa-plane-departure"></i>
+        <div class="text">Samalyot</div>
+        <h2 class="h2 mb-4" id="js-pilot">N soat</h2>
+        <hr>
+        <p class="text-center">800 km/soat</p>
+      </div>
+    </div>
+  </div>
+  <script src="./js/main.js"> </script>
+</body>
+
+</html>
